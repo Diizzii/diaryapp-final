@@ -1,0 +1,77 @@
+body {
+  background-color: #e6f2ef;
+}
+
+.custom-form {
+  max-width: 22%;
+  margin: 5% auto;
+  padding: 2%;
+  background: white;
+}
+
+.custom-form input {
+  margin-top: 0.3rem;
+}
+
+.with-header {
+  margin: 5% auto;
+}
+
+.custom-field {
+  margin-bottom: 5%;
+}
+
+.custom-form h1 {
+  margin-bottom: 5%;
+}
+
+.custom-form button {
+  margin-top: 1%;
+  margin-bottom: 7%;
+}
+
+.custom-form span {
+  color: #5c81f2;
+  cursor: pointer;
+}
+
+.error {
+  font-weight: bolder;
+  color: #5c81f2;
+}
+
+.btn-profile {
+  background: #e6f2ef;
+  margin-right: 1%;
+  border: none;
+  color: black;
+}
+
+.feedback-form {
+  margin: 12% auto;
+  max-width: 50%;
+}
+
+.feedback-form h2 {
+  text-align: center;
+}
+
+.feedback-bottom {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.feedback-bottom span {
+  display: inline-block;
+  width: 2%;
+}
+
+.feedback-submitted {
+  margin-top: 5%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.recaptcha {
+  margin: auto;
+}
