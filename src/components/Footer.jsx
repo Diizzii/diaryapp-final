@@ -11,8 +11,8 @@ const Footer = () => {
     >
       <div className='container' style={{ textAlign: 'center' }}>
         &copy;{' '}
-        <a href='https://2307.link' target='_blank' rel='noreferrer'>
-          2307.link
+        <a href='https://dkdev.link' target='_blank' rel='noreferrer'>
+          dkdev.link
         </a>{' '}
         <span style={{ display: 'inline-block', width: '5%' }}> </span>
         <span
