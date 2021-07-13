@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useHistory } from 'react-router-dom'
+
+import { AuthContext } from '../context/AuthContext'
 
 const Footer = () => {
   const history = useHistory()
+  const { uid } = useContext(AuthContext)
 
   return (
     <footer
@@ -15,12 +18,14 @@ const Footer = () => {
           ...dkdev...
         </a>{' '}
         <span style={{ display: 'inline-block', width: '5%' }}> </span>
-        <span
-          onClick={() => history.push('/feedback')}
-          style={{ color: '#3c9e8c', cursor: 'pointer' }}
-        >
-          Feedback
-        </span>
+        {uid && (
+          <span
+            onClick={() => history.push('/feedback')}
+            style={{ color: '#3c9e8c', cursor: 'pointer' }}
+          >
+            Feedback
+          </span>
+        )}
       </div>
     </footer>
   )
