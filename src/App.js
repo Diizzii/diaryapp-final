@@ -32,7 +32,7 @@ function App() {
           <PrivateRoute path='/profile' component={ProfilePage} />
           <Route path='/reset' component={ResetPage} />
           <PrivateRoute path='/delete' component={DeleteAccountPage} />
-          <PrivateRoute path='/feedback' component={FeedbackPage} />
+          <Route path='/feedback' component={FeedbackPage} />
           <Redirect from='*' to='/' />
         </Switch>
       </Router>
