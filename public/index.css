@@ -78,14 +78,14 @@ body {
 
 @media only screen and (max-width: 600px) {
   .custom-form {
-    margin-top: 9%;
+    margin-top: 6%;
     min-width: 85%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .custom-form {
-    margin-top: 9%;
+    margin-top: 6%;
     min-width: 60%;
   }
 }
